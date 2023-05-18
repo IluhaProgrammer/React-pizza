@@ -1,0 +1,8 @@
+{
+"pizzas": [
+         { "id": 1, "url":"/pizzas/pizza1.svg", "cost": 395 ,"name":"Чизбургер-пицца", "sizes": [26, 30, 40], "types": ["тонкое", "традиционное"], "category": 1, "raiting": 5 },
+         { "id": 2, "url":"/pizzas/pizza2.svg", "cost":450, "name":"Сырная", "sizes": [26, 30, 40], "types": ["тонкое", "традиционное"], "category": 3, "raiting": 2},
+         { "id": 3, "url":"/pizzas/pizza3.svg", "cost":290 ,"name":"Креветки по-азиатски", "sizes": [26, 30, 40], "types": ["тонкое", "традиционное"], "category": 2, "raiting": 4},
+         { "id": 4, "url":"/pizzas/pizza4.svg", "cost":385 ,"name":"Сырный цыпленок", "sizes": [20, 40], "types": ["тонкое", "традиционное"], "category": 4, "raiting": 3}
+    ]
+}

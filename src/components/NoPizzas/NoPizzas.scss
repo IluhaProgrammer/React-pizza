@@ -1,0 +1,16 @@
+.NoPizzas {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    .NoHeader {
+        display: flex;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+    .NoContent {
+        font-size: 20px;
+    }
+}
+.NP  {
+    display: flex;
+    justify-content: center;
+}

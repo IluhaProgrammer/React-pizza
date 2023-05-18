@@ -1,0 +1,68 @@
+.Paginate {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.PaginationPage {
+    background-color: #fff;
+    color: #fe5f1e;
+    border: 2px solid #fe5f1e;
+    margin: 0px 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+    .active {
+    background-color: #fe5f1e;
+    color: #fff;
+    border-radius: 50%;
+    padding: 15px 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+    &:hover {
+        background-color: #fe5f1e;
+        color: #fff;
+    }
+}
+.next {
+    width: 50px;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #fe5f1e;
+    border: 2px solid #fe5f1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 25px;
+    &:hover {
+        background-color: #fe5f1e;
+        color: #fff;
+    }
+}
+.previous {
+    width: 50px;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #fe5f1e;
+    border: 2px solid #fe5f1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 25px;
+    &:hover {
+        background-color: #fe5f1e;
+        color: #fff;
+    }
+}

@@ -1,0 +1,31 @@
+   .search {   
+        outline: none;
+        width: 200px;
+        font-size: 16px;
+        border: none;
+        margin-left: 20px;
+        transition: all 0.15s ease-in-out;
+    }
+.search-block {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba($color: #000000, $alpha: 0.1);
+    border-radius: 20px;
+    padding: 15px 25px; 
+    position: relative;
+}
+.svg {
+    &:hover {
+        cursor: pointer;
+        animation: rotate 0.4s linear;
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+}

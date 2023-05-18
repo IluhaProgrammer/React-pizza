@@ -1,0 +1,71 @@
+.full-pizza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .full-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h1 {
+            color: #fff;
+            background-color: #222;
+            margin-bottom: 25px;
+            padding: 10px;
+            border-radius: 20px;
+        }
+    }
+    .full-pizza-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        .full-price {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            span  {
+                display: flex;
+                justify-content: center;
+                margin-top: 15px;
+                color: #222;
+                padding: 10px;
+                background: #fe5f1e;
+                border-radius: 20px;
+                font-size: 20px;
+                p {
+                    margin-left: 5px;
+                    font-weight: 900px;
+                }
+            }
+        }
+        .button-full {
+            background: #fff;
+            border: 2px solid #dfdfdf;
+            outline: none;
+            padding :10px;
+            border-radius: 20px;
+            color: #dfdfdf;
+            font-size: 20px;
+            margin-top: 25px;
+            transition: all 0.15s ease-in-out;
+            cursor: pointer;
+            &:hover {
+                background: #222;
+                color: #fff;
+                border: 2px solid #222;
+            }
+        }
+        .full-dop {
+            margin-top: 30px;
+            h1 {
+                background: #222;
+                color: #fff;
+                padding: 10px;
+                border-radius: 20px;
+            }
+        }
+    }
+}
